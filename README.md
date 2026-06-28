@@ -48,14 +48,14 @@ Enabling a plugin does not activate its rules. The only way to wire a plugin's r
 
 ```bash
 mkdir -p .claude/rules
-ln -s ~/projects/axel-standards/axel-php-standards/rules .claude/rules/axel-php
+ln -s ~/projects/axel-standards/axel-<your-techno>-standards/rules .claude/rules/axel-<your-techno>-standards
 ```
 
-The rules then resolve at `.claude/rules/axel-php/<category>/<rule>.md` and apply according to each file's scope. Editing a rule in this repository updates every project that links it.
+The rules then resolve at `.claude/rules/axel-<your-techno>-standards/<category>/<rule>.md` and apply according to each file's scope. Editing a rule in this repository updates every project that links it.
 
 Notes:
 - The symlink targets an absolute home path, so it only resolves on the machine where this repository lives at that location.
-- Add the link (e.g. `.claude/rules/axel-php`) to the project's `.gitignore` — it points outside the repository and is a per-developer convenience, not shared state.
+- Add the link (e.g. `.claude/rules/axel-<your-techno>-standards`) to the project's `.gitignore` — it points outside the repository and is a per-developer convenience, not shared state.
 
 ## How the rules are structured
 
