@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "axel-php-standards",
+  "version": "0.1.0",
+  "description": "Personal PHP defensive-programming standards as scoped rules: clean code, SOLID, native typing, immutability, value objects, domain exceptions. Auto-applied on **/*.php.",
+  "author": {
+    "name": "axelvilleret"
+  },
+  "keywords": [
+    "php",
+    "rules",
+    "standards",
+    "clean-code",
+    "defensive-programming",
+    "solid"
+  ],
+  "license": "MIT"
+}

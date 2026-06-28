@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "axel-standards",
+  "version": "0.1.0",
+  "description": "Personal coding-standards marketplace: reusable rule plugins enabled per project.",
+  "owner": {
+    "name": "axelvilleret"
+  },
+  "plugins": [
+    {
+      "name": "axel-php-standards",
+      "source": "./axel-php-standards",
+      "description": "PHP defensive-programming standards as scoped rules: clean code, SOLID, native typing, immutability, value objects, domain exceptions.",
+      "strict": true
+    }
+  ]
+}
